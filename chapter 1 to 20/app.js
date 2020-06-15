@@ -203,7 +203,7 @@
 //     i+" x "+num+" = "+ (i*num++)+"<br/>"+
 //     i+" x "+num+" = "+ (i*num++)+"<br/>"
 // );
-// 
+
 // alert("wellcome");
 // rollno=prompt("enter your roll no","");
 // name=prompt("enter your name","");
@@ -220,7 +220,6 @@
 // } else {
 //    result="fail";
 // }
-
 // if (percentage>=80){
 //    grade="A one" ;
 // } else if (percentage>=70){
@@ -236,10 +235,10 @@
 // }
 // if(confirm==true){
 //     document.write('<h1 align="center"><font color="red">Result card</font> </h1> <br><table border="1" width="400" align="center"><tr><td width="150">Roll no</td><td> '+ rollno +'</td></tr><tr><td width="150">Name</td><td> '+ name +'</td></tr><tr><td width="150">English</td><td>' + english + '</td></tr><tr><td width="150">Urdu</td><td> '+ urdu +'</td></tr><tr><td width="150">computer</td><td> '+ computer +'</td></tr><tr><td width="150">total marks</td><td> '+ total +'</td></tr><tr><td width="150">Obtained Marks</td><td> '+ obtain +'</td></tr><tr><td width="150">Percentage</td><td> '+ percentage +'</td></tr><tr><td width="150">Average</td><td> '+ average +'</td></tr><tr><td width="150">Pass/Fail</td><td> '+ result +'</td></tr><tr><td width="150">Grade</td><td> '+ grade +'</td></tr></table>');
-//       }
-//       else {
+//    }
+//    else {
 //           document.write('<h1>Result not found</h1>')
-//       }
+//    }
 // 
 // ==================================chapter 9-11 =================================
 // 
@@ -247,29 +246,26 @@
 // if (cityName === "karachi"){
 //     alert("Welcome to city of lights")
 // }
-// 
+
 // var gender = prompt("Enter Your Gender");
 // if (gender === "male"){
 //     alert("Good Morning Sir")
 // }
-
 // if (gender === "female"){
 //     alert("Good Morning Ma'am")
 // }
-// 
+
 // var lightColor = prompt("Enter Traffic Signal Light Color");
 //  if (lightColor === "red"){
 //      alert("Must Stop")
 //  }
-
 //  if (lightColor ==="yellow"){
 //     alert("Ready to move")
 // }
-
 // if (lightColor ==="green"){
 //     alert("Move now")
 // }
-// 
+
 // a. var a = 4;
 // if (++a === 5){
 // alert("given condition for variable a is true");
@@ -307,9 +303,116 @@
 //     alert("car is smaller than cat");
 //     }
 
+// =================================== chapter 12-13====================
+// var number1 = +prompt("Enter first Integar");
+// var number2 = +prompt("Enter second Integar");
+// if (number1> number2) {
+//     alert(number1 + " is larger than" + number2)
+// }
+// else if (number1 < number2 ) {
+//     alert(number2 + " is larger than" + number1)
+// }
+//  else alert(number1 + " and " + number2 + " are equal");
+// 
+// var number = +prompt("Enter a number");
+//  if (number > 0 ) {
+//     alert("The given number is positive")
+// }
+// else if (number < 0 ) {
+//     alert("The given number is negative")
+// }
+// else alert( "The given number is zero");
 
+// var char = prompt("Enter a character in small character");
+// if (char === "a" || char === "e"|| char === "i"|| char === "o"|| char === "u" ) {
+//     alert("true")
+// }
+// else alert("false");
 
+// var password = "0000";
+// var uPassword = prompt("Enter your password");
+// if (uPassword === ""){
+//     alert("please enter your password");
+// }
+// else if (uPassword === password) {
+//     alert("correct! the password you entered matches the original password");
+// }
+// else alert("incorrect password");
 
+// / var greeting;
+// var hour = 13;
+// if (hour <18) {
+//     greeting = "good day";
+// }
+// else greeting = "good evening";
+
+// ===============================chapter 14-16==========================
+// var literalArray = [];
+
+// var objectArray = [];
+
+// var stringsArray = ["syed","usama","ali"];
+
+// var numbersArray = [1,2,3,4,5];
+
+// var booleanArray = [true,false];
+
+// var mixedArray = ["usama",1971,true];
+
+// var eduArray = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+// document.write("<h1>Qualification</h1>")
+// for (var i = 0; i <=7; i++){
+//     document.write(i+1+" "+eduArray[i]+"<br/>");
+// }
+
+// var phoneModel = ["apple","samsung","motorla","nokia","sony & haier"]
+// document.write(
+//     "<select>"+
+//     "<option>"+phoneModel[0]+"</option>"+
+//     "<option>"+phoneModel[1]+"</option>"+
+//     "<option>"+phoneModel[2]+"</option>"+
+//     "<option>"+phoneModel[3]+"</option>"+
+//     "<option>"+phoneModel[4]+"</option>"+
+//     "</select>"
+// );
+
+// ========================================chapter 17-20=========================
+
+// for (var i = 1; i <= 10; i++){
+//     document.write(i+"<br/>")
+// }
+
+// var table = +prompt("Enter a number");
+// var length = +prompt("Enter length for multiplication table" );
+// document.write("Multiplication Table of " +table+"<br/> length "+length+ "<br/>")
+// for(var i = 1; i <= length; i++){
+//     document.write(table+" x "+i+" = "+table*i+"<br/>")
+// }
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// var arr = fruits.length;
+// for(var i = 0; i <arr; i++){
+//     document.write(i +fruits[i]+"<br/>");
+// }
+
+// var arr = [24,53,78,91,12];
+// var max = Math.max.apply(Math,arr);
+// document.write(
+//     "Array items: "+arr+
+//     "<br/> The largest number is " +max
+// );
+
+// var arr = [24,53,78,91,12];
+// var min = Math.min.apply(Math,arr);
+// document.write(
+//     "<br/> The samllest number is " +min
+// );
+
+// for(var i = 1; i<=100; i++){
+//     if(i%5 === 0){
+//         document.write(i+" ,")
+//  }
+// };
 
 
 
